@@ -1,0 +1,12 @@
+from .modeling_llama_fp16 import LlamaForCausalLM as LlamaForCausalLM_fp16
+from .modeling_llama_qat import LlamaForCausalLM as LlamaForCausalLM_qat
+from .modeling_llama_qat_mix import LlamaForCausalLM as LlamaForCausalLM_qat_mix
+from .modeling_llama_qat_distribution_guide import LlamaForCausalLM as LlamaForCausalLM_qat_distribution
+from .modeling_llama_lsq import LlamaForCausalLM as LlamaForCausalLM_lsq
+from .modeling_llama_pact import LlamaForCausalLM as LlamaForCausalLM_pact
+from .modeling_llama_nipq import LlamaForCausalLM as LlamaForCausalLM_nipq
+from .modeling_gpt2_fp16 import GPT2LMHeadModel as GPT2LMHeadModel_fp16
+from .modeling_gpt2_qat_distribution_guide import GPT2LMHeadModel as GPT2LMHeadModel_qat_distribution
+from .modeling_gpt2_lsq import GPT2LMHeadModel as GPT2LMHeadModel_lsq
+from .modeling_gpt2_nipq import GPT2LMHeadModel as GPT2LMHeadModel_nipq
+from .modeling_gpt2_pact import GPT2LMHeadModel as GPT2LMHeadModel_pact
