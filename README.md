@@ -1,6 +1,6 @@
 # EdgeQAT
-Official repo for the paper: EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training
-for the Acceleration of Lightweight LLMs on the Edge
+Official repo for the paper: [EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training
+for the Acceleration of Lightweight LLMs on the Edge](https://arxiv.org/abs/2402.10787v1)
 
 
 ## Implementation
