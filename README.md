@@ -16,6 +16,14 @@ Follow the instructions of the [BabyLLaMA](https://github.com/timinar/BabyLlama)
 6. Evaluation with scripts in `evaluation_pipeline/`
 
 
-
+## Citation
+```
+@article{shen2024edgeqat,
+  title={EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for the Acceleration of Lightweight LLMs on the Edge},
+  author={Shen, Xuan and Kong, Zhenglun and Yang, Changdi and Han, Zhaoyang and Lu, Lei and Dong, Peiyan and others},
+  journal={arXiv preprint arXiv:2402.10787},
+  year={2024}
+}
+```
 
 
