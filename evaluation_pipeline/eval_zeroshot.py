@@ -62,11 +62,11 @@ if __name__ == "__main__":
         if task in TASKS["blimp"]:
             template = None
             task_title = task.split(".json")[0]
-            task = f"blimp_from_file:/data/shenxuan/gpt-quantization/babyllama/dataset/filter-data/blimp_filtered/{task}"
+            task = f"blimp_from_file:/path_to_dataset/filter-data/blimp_filtered/{task}"
         elif task in TASKS["supplement"]:
             template = None
             task_title = task.split(".json")[0]
-            task = f"blimp_from_file:/data/shenxuan/gpt-quantization/babyllama/dataset/filter-data/supplement_filtered/{task}"
+            task = f"blimp_from_file:/path_to_dataset/filter-data/supplement_filtered/{task}"
         else:
             raise ValueError("Unrecognized task!")
         accuracies[task_title] = accuracy_on_task(task, eval_model, template,
